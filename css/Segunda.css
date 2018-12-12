@@ -1,0 +1,421 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+.container{
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+body{
+	background: #D7DBDD;
+}
+.LogoPrincipal{
+
+background: white;
+width: 100%;
+height: 200px;
+}
+.LogoPrincipal img{
+	margin-left: 15%;
+	margin-top: 15px;
+}
+.Seguridad{
+	margin-top: 4%;
+	font-size: 120px;
+	margin-left: 15%;
+}
+.ImgFlecha{
+	margin-top: 60px;
+	margin-left: 22%;
+	color: #E91E63;
+	font-size: 58px;
+}
+
+
+.Particulares{
+	color: #E91E63;
+	margin-left: 51%;
+	margin-top: 4%;
+	font-size: 50px;
+}
+
+.Gratis{
+	position: absolute;
+	background: Gratisy;
+	width: 350px;
+	height: 180px;
+	left: 42%;
+	top: 58%;
+	display: inline-flex;
+	margin-left: 50%
+	margin-top: 20px;
+	padding: 10px;
+
+}
+.Primera,.Segunda,.Tercera{
+	width: 2px;
+	height: 150px;
+    display: inline-flex;
+	margin-top: 10px;
+	margin-left: 20px;
+	margin-right: 5px;
+}
+
+
+.Numero1{
+	color: #00FF33;
+	font-size: 100px;
+	 display: inline-flex;
+	 margin-top: 20px;
+
+
+}
+.Gratuito{
+	color: white;
+	font-size: 60px;
+	margin-left: 10px;
+	 display: inline-flex;
+	 margin-top: 70px;
+}
+.PlanPremiun{
+	position: absolute;
+	background: Gratisy;
+	width: 350px;
+	height: 180px;
+	left: 56%;
+	top: 58%;
+	display: inline-flex;
+	margin-left: 50%
+	margin-top: 20px;
+	padding: 10px;
+
+}
+.NumeroDos{
+	color: #CC6600;
+	font-size: 100px;
+	 display: inline-flex;
+	 margin-top: 20px;
+}
+
+
+.Premiun{
+	color: white;
+	font-size: 60px;
+	margin-left: 10px;
+	 display: inline-flex;
+	 margin-top: 70px;
+}
+.Empresa{
+	position: absolute;
+	color: #E91E63;
+	top:53%;
+	left:73%;
+	font-size: 50px;
+}
+.PlanProfesion{
+	position: absolute;
+	background: Gratisy;
+	width: 365px;
+	height: 180px;
+	left: 70%;
+	top: 58%;
+	display: inline-flex;
+	margin-left: 50%
+	margin-top: 20px;
+	padding: 10px;
+}
+.NumeroTres{
+	color: #00CCFF;
+	font-size: 100px;
+	 display: inline-flex;
+	 margin-top: 20px;
+}
+
+.Profesional{
+	color: white;
+	font-size: 60px;
+	margin-left: 10px;
+	 display: inline-flex;
+	 margin-top: 70px;
+}
+table{
+    width: 100%
+	left: 80%;
+	margin-top: 10%;
+	text-align: left;
+	margin-left: 15%;
+}
+tr, td{
+	width: 345px;
+	text-align: left;
+	border-bottom: 1px solid #B0BEC5;
+	padding-top: 50px;
+	padding-left: 50px;
+	font-size: 40px;
+
+}
+.ne{
+font-size: 50px;
+}
+.Footer{
+	background: black;
+	height: 500px;
+	border-top: 10px solid #FF0040;
+	color: white;
+	width: 100%;
+	margin-top: 8%;
+
+}
+.Footer img{
+	margin-top: 100px;
+	margin-left: 15%;
+}
+.Footer p{
+	margin-top: 100px;
+	margin-left: 15%;
+	font-size: 30px;
+}
+
+a{
+	font-size: 15px;
+	color: white;
+	border-bottom: 1px dotted white;
+}
+.CenterItems{
+	text-align: center;
+}
+
+.Contrataar{
+	text-decoration: none;
+	position: absolute;
+	top: 137%;
+	left: 71%;
+	width: 300px;
+	height: 80px;
+	background: #E91E63;
+	overflow: hidden;
+	
+}
+.Contrataar ul{
+	list-style: none;
+	background: #FF0040;
+	width: 315px;
+	height: 2000px;
+	display: flex;
+	justify-content: center;
+	float: left;
+	
+}
+
+.Contrataar li a{
+	font-size: 45px;
+	text-decoration: none;
+}
+
+
+.Contrataar:hover{
+	-moz-transform: scale(1) translateX(-1px) translateY(5px) skewX(5deg) skewY(1deg);
+-webkit-transform: scale(1) translateX(-1px) translateY(5px) skewX(5deg) skewY(1deg);
+-o-transform: scale(1) translateX(-1px) translateY(5px) skewX(5deg) skewY(1deg);
+-ms-transform: scale(1) translateX(-1px) translateY(5px) skewX(5deg) skewY(1deg);
+transform: scale(1) translateX(-1px) translateY(5px) skewX(5deg) skewY(1deg);
+-webkit-transition: all 1s ease-in-out;
+-moz-transition: all 1s ease-in-out;
+-ms-transition: all 1s ease-in-out;
+-o-transition: all 1s ease-in-out;
+transition: all 1s ease-in-out;
+
+
+}
+.facebook{
+	width:100px ;
+	height: 90px;
+	text-align: center;
+	border-radius: 50px;
+	display: block;
+	margin-top: 10%;
+	position: fixed;
+	left: 0;
+	top:300;
+	z-index: 2000;
+	padding: 5px;
+}
+
+.facebook  li:hover{
+-moz-transform: scale(2) rotate(-360deg) translateX(23px) translateY(-42px) skewX(3deg) skewY(8deg);
+-webkit-transform: scale(2) rotate(-360deg) translateX(23px) translateY(-42px) skewX(3deg) skewY(8deg);
+-o-transform: scale(2) rotate(-360deg) translateX(23px) translateY(-42px) skewX(3deg) skewY(8deg);
+-ms-transform: scale(2) rotate(-360deg) translateX(23px) translateY(-42px) skewX(3deg) skewY(8deg);
+transform: scale(2) rotate(-360deg) translateX(23px) translateY(-42px) skewX(3deg) skewY(8deg);
+
+-webkit-transition: all 1s ease-in-out;
+-moz-transition: all 1s ease-in-out;
+-ms-transition: all 1s ease-in-out;
+-o-transition: all 1s ease-in-out;
+transition: all 1s ease-in-out;
+}
+.face{
+	font-size: 40px;
+	color: white;
+	margin-top: 10px;
+	display: inline-block;
+
+	}
+	.primero{
+		width: 60px;
+		height: 60px;
+		background: #1153EC;
+		text-align:center;
+		border-radius: 100px;
+		display: block;
+		margin-top: 30px;
+
+	}
+	.dos{
+	font-size: 50px;
+	color: white;
+	margin-top: 10px;
+	display: inline-block;
+
+	
+}
+.twitter{
+	font-size: 40px;
+	color: white;
+	margin-top: 10px;
+	display: inline-block;
+
+}
+	.segundo{
+		width: 60px;
+		height: 60px;
+		background: #84EAFE;
+		text-align:center;
+		border-radius: 100px;
+		display: block;
+		margin-top: 30px;
+	}
+	
+.gl{
+	font-size: 40px;
+	color: white;
+	margin-top: 10px;
+	display: inline-block;
+
+}
+.tercero{
+		width: 60px;
+		height: 60px;
+		background: #EF1900;
+		text-align:center;
+		border-radius: 100px;
+		display: block;
+		margin-top: 30px;
+	}
+.Pinter{
+	font-size: 40px;
+	color: white;
+	margin-top: 10px;
+	display: inline-block;
+
+}
+.cuarto{
+	width: 60px;
+		height: 60px;
+		background: #EF1900;
+		text-align:center;
+		border-radius: 100px;
+		display: block;
+		margin-top: 30px;
+	}
+.gmail{
+	font-size: 40px;
+	color: white;
+	margin-top: 10px;
+	display: inline-block;
+}
+.quinto{
+		width: 60px;
+		height: 60px;
+		background: #40DE6B;
+		text-align:center;
+		border-radius: 100px;
+		display: block;
+		margin-top: 30px;
+	}
+
+
+
+@ImgFlechadia only screen and (max-width: 600px){
+	body{
+		background-color: lightblue;
+	}
+}
+
+@ImgFlechadia only screen and (max-width: 1200px) and (min-width: 610px){
+	body{
+		background-color: lightcyan;
+	}
+}
+
+
+@ImgFlechadia only screen and ( max-width:768px ) and (min-width: 200px) {
+	/*for mobile phone*/
+	.Seguridad, .ImgFlecha, .Particulares, .Empresa{
+		width: 100%;
+		font-variant: small-caps;
+		display: block;
+		font-size: 30px;
+
+	}
+	.Empresa{
+		margin-top: 35%;
+		margin-left: -30%;
+	}
+	.Particulares{
+		margin-left: 40%;
+	}
+	.Gratis{
+		margin-left: -15%;
+		margin-top: -20%;
+	}
+	.PlanPremiun{
+	margin-left: -29%;
+	margin-top: 32%;
+
+	}
+	.PlanProfesion{
+		margin-top: 75%;
+		margin-left: -45%;
+	}
+
+
+	table{
+		margin-top: 100%;
+		font-size: 100px;
+		margin-left: 25%;
+		margin-bottom: 25%;
+	}
+		
+	table, tr td{
+		display: block;
+		text-align: center;
+	}
+
+
+	.face{
+		margin-top: 200%;
+	}
+
+	.Contrataar{
+		top: 455%;
+		margin-left: -200px;
+	}
+
+
+
+
